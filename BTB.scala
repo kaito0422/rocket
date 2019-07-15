@@ -122,7 +122,7 @@ class BHTResp(implicit p: Parameters) extends BtbBundle()(p) {
  *      | | | | | | | |---> 1BC(Hist=7)  -|
  *      | | | | | | |-----> 1BC(Hist=6)   |
  *      | | | | |---------> 1BC(Hist=4)   |
- *      | | | |-----------> 1BC(Hist=3)    >  二位计数器
+ *      | | | |-----------> 1BC(Hist=3)    >  一位计数器
  *      | | |-------------> 1BC(Hist=2)   |
  *      | |---------------> 1BC(Hist=1)   |
  *      |-----------------> 1BC(Hist=0)  -|
